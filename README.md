@@ -20,6 +20,16 @@ Claude Code plugin channeling Taylor Otwell's Laravel philosophy. Helps you writ
 
 [View documentation →](https://github.com/mischasigtermans/taylor-says)
 
+### raymond-says
+
+Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy. Helps you write beautiful, idiomatic Python by reviewing through the lens of a Python core developer.
+
+```bash
+/plugin install raymond-says@rydeventures-claude-plugins
+```
+
+[View documentation →](https://github.com/mischasigtermans/raymond-says)
+
 ## License
 
 MIT

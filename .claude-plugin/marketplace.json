@@ -19,6 +19,17 @@
       "homepage": "https://github.com/mischasigtermans/taylor-says",
       "category": "development",
       "tags": ["laravel", "php", "code-review"]
+    },
+    {
+      "name": "raymond-says",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mischasigtermans/raymond-says.git"
+      },
+      "description": "Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy",
+      "homepage": "https://github.com/mischasigtermans/raymond-says",
+      "category": "development",
+      "tags": ["python", "pythonic", "code-review"]
     }
   ]
 }
