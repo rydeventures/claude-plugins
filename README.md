@@ -10,17 +10,21 @@ Claude Code plugins we build and use at Ryde Ventures.
 
 ## Available Plugins
 
-### taylor-says
+### Automation
 
-Claude Code plugin channeling Taylor Otwell's Laravel philosophy. Helps you write elegant, simple Laravel code by reviewing through the lens of Laravel's creator.
+#### ralph
+
+Autonomous AI development loop for Claude Code. Define user stories, run the loop, check back when it's done.
 
 ```bash
-/plugin install taylor-says@rydeventures-claude-plugins
+/plugin install ralph@rydeventures-claude-plugins
 ```
 
-[View documentation →](https://github.com/mischasigtermans/taylor-says)
+[View documentation →](https://github.com/mischasigtermans/ralph)
 
-### raymond-says
+### Code Review
+
+#### raymond-says
 
 Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy. Helps you write beautiful, idiomatic Python by reviewing through the lens of a Python core developer.
 
@@ -29,6 +33,16 @@ Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy. Helps you
 ```
 
 [View documentation →](https://github.com/mischasigtermans/raymond-says)
+
+#### taylor-says
+
+Claude Code plugin channeling Taylor Otwell's Laravel philosophy. Helps you write elegant, simple Laravel code by reviewing through the lens of Laravel's creator.
+
+```bash
+/plugin install taylor-says@rydeventures-claude-plugins
+```
+
+[View documentation →](https://github.com/mischasigtermans/taylor-says)
 
 ## License
 

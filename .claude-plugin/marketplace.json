@@ -30,6 +30,17 @@
       "homepage": "https://github.com/mischasigtermans/raymond-says",
       "category": "development",
       "tags": ["python", "pythonic", "code-review"]
+    },
+    {
+      "name": "ralph",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mischasigtermans/ralph.git"
+      },
+      "description": "Autonomous AI development loop for Claude Code. Define user stories, run the loop, check back when it's done.",
+      "homepage": "https://github.com/mischasigtermans/ralph",
+      "category": "development",
+      "tags": ["automation", "autonomous", "ralph-loop"]
     }
   ]
 }
