@@ -32,6 +32,17 @@
       "tags": ["python", "pythonic", "code-review"]
     },
     {
+      "name": "steve-says",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mischasigtermans/steve-says.git"
+      },
+      "description": "Claude Code plugin channeling Steve Jobs's documented decision frameworks, aesthetic judgment, and demanding standards",
+      "homepage": "https://github.com/mischasigtermans/steve-says",
+      "category": "advisory",
+      "tags": ["product", "strategy", "leadership", "steve-jobs"]
+    },
+    {
       "name": "ralph",
       "source": {
         "source": "url",
