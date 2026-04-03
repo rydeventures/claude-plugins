@@ -24,6 +24,16 @@ Autonomous AI development loop for Claude Code. Define user stories, run the loo
 
 ### Code Review
 
+#### david-says
+
+Claude Code plugin channeling David Tolnay's Rust philosophy. Reviews Rust code for idiomatic patterns, type safety, and ownership correctness through the lens of the maintainer of serde, syn, anyhow, and thiserror.
+
+```bash
+/plugin install david-says@rydeventures-claude-plugins
+```
+
+[View documentation →](https://github.com/mischasigtermans/david-says)
+
 #### raymond-says
 
 Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy. Helps you write beautiful, idiomatic Python by reviewing through the lens of a Python core developer.

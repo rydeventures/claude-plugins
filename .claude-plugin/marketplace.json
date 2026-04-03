@@ -32,6 +32,17 @@
       "tags": ["python", "pythonic", "code-review"]
     },
     {
+      "name": "david-says",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mischasigtermans/david-says.git"
+      },
+      "description": "Claude Code plugin channeling David Tolnay's Rust philosophy",
+      "homepage": "https://github.com/mischasigtermans/david-says",
+      "category": "development",
+      "tags": ["rust", "type-safety", "code-review"]
+    },
+    {
       "name": "steve-says",
       "source": {
         "source": "url",
