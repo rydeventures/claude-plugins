@@ -10,49 +10,41 @@ Claude Code plugins we build and use at Ryde Ventures.
 
 ## Available Plugins
 
+### Advisory
+
+#### personas
+
+Session-aware persona advisors with project-scoped threads and memory. Bundled pack of public-figure personas (Steve Jobs, Taylor Otwell, Raymond Hettinger, David Tolnay); pluggable for third-party personas via git repos. Replaces the standalone `*-says` plugins.
+
+```bash
+/plugin install personas@rydeventures-claude-plugins
+```
+
+[View documentation →](https://github.com/mischasigtermans/claude-personas)
+
 ### Automation
 
 #### ralph
 
-Autonomous AI development loop for Claude Code. Define user stories, run the loop, check back when it's done.
+An opinionated take on the Ralph autonomous loop for Claude Code. Define user stories, run the loop, check back when it's done.
 
 ```bash
 /plugin install ralph@rydeventures-claude-plugins
 ```
 
-[View documentation →](https://github.com/mischasigtermans/ralph)
+[View documentation →](https://github.com/mischasigtermans/claude-ralph)
 
-### Code Review
+### Productivity
 
-#### david-says
+#### parley
 
-Claude Code plugin channeling David Tolnay's Rust philosophy. Reviews Rust code for idiomatic patterns, type safety, and ownership correctness through the lens of the maintainer of serde, syn, anyhow, and thiserror.
-
-```bash
-/plugin install david-says@rydeventures-claude-plugins
-```
-
-[View documentation →](https://github.com/mischasigtermans/david-says)
-
-#### raymond-says
-
-Claude Code plugin channeling Raymond Hettinger's Pythonic philosophy. Helps you write beautiful, idiomatic Python by reviewing through the lens of a Python core developer.
+Cross-session peer agents for Claude Code. Ask one project what another knows, with full context and memory across turns. Three-tier routing: live-attached when a peer window is in listen mode, headless-resumed when a cached session exists, headless-fresh otherwise.
 
 ```bash
-/plugin install raymond-says@rydeventures-claude-plugins
+/plugin install parley@rydeventures-claude-plugins
 ```
 
-[View documentation →](https://github.com/mischasigtermans/raymond-says)
-
-#### taylor-says
-
-Claude Code plugin channeling Taylor Otwell's Laravel philosophy. Helps you write elegant, simple Laravel code by reviewing through the lens of Laravel's creator.
-
-```bash
-/plugin install taylor-says@rydeventures-claude-plugins
-```
-
-[View documentation →](https://github.com/mischasigtermans/taylor-says)
+[View documentation →](https://github.com/mischasigtermans/claude-parley)
 
 ## License
 
